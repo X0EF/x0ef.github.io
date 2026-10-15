@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>X0EF</title><script>(function(){var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t})()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box;margin:0;padding:0}html,body{height:100dvh;overflow:hidden}button{cursor:pointer;font:inherit}a{color:inherit}
+:root{--bg:#f5f5f5;--fg:#0d0d0d;--mute:#6b6b6b;--line:#d4d4d4;--acc:#d15010}
+[data-theme=dark]{--bg:#0d0d0d;--fg:#f5f5f5;--mute:#8a8a8a;--line:#262626}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;display:grid;grid-template-rows:auto 1fr auto}
+.m{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:-.015rem;color:var(--mute)}
+header,footer{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 2rem;border-bottom:1px solid var(--line)}
+footer{border-bottom:0;border-top:1px solid var(--line)}
+.logo{font-weight:500;letter-spacing:-.02em}
+#tg{background:none;border:1px solid var(--line);color:var(--mute);padding:.4rem .7rem}
+main{display:flex;flex-direction:column;justify-content:center;padding:0 2rem;margin:0 2rem;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+h1{font-weight:400;font-size:clamp(3rem,11vw,8rem);letter-spacing:-.05em;line-height:1}
+.t{margin-top:2.5rem;border-top:1px solid var(--line);padding-top:1.25rem;font:clamp(.8rem,1.4vw,1rem)/1.9 "JetBrains Mono",ui-monospace,monospace}
+.p{color:var(--acc)}.d{color:var(--mute)}.s{color:var(--acc)}.s::before{content:"■ "}
+.c{display:inline-block;width:.6em;height:1.1em;background:var(--acc);vertical-align:text-bottom;animation:b 1s steps(1) infinite}
+@keyframes b{50%{opacity:0}}
+@media(max-width:600px){header,footer{padding:1rem}main{margin:0 1rem;padding:0 1rem}}
+</style></head><body>
+<header><span class="logo">X0EF</span><button id="tg" class="m">Theme</button></header>
+<main><span class="m">[ 01 ] Product</span><h1>X0EF</h1>
+<div class="t"><div><span class="p">x0ef:~$</span> ls products/</div><div><a href="/gsaas-docs" style="color:inherit">gsaas/</a> <span class="s">coming soon</span></div><div><span class="p">x0ef:~$</span> <span class="c"></span></div></div></main>
+<footer class="m"><span>© 2026 X0EF</span><a href="https://github.com/X0EF">GitHub ↗</a></footer>
+<script>document.getElementById("tg").onclick=function(){var r=document.documentElement,t=r.dataset.theme==="dark"?"light":"dark";r.dataset.theme=t;localStorage.setItem("theme",t)}</script></body></html>
